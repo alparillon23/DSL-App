@@ -1,0 +1,79 @@
+Index: vanilla/scripts/main.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import '../styles/main.out.css'\r\nimport { ShapeRender } from './new-shape'\r\n\r\n//document.body.innerText = 'Hello world!'\r\n\r\n\r\nconst shape = {\r\n  name: \"square\",\r\n  parameters : {\r\n    width: \"50\",\r\n  },\r\n}\r\nfunction basic(){\r\n  const docx = document.getElementById(\"base\")!;\r\n\r\n  const build = new ShapeRender(shape);\r\n  docx.innerHTML = build.drawShape().outerHTML;\r\n}\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- vanilla/scripts/main.ts	(revision 5b3f374b71882bfba8af2661fb90e3532fb62412)
++++ vanilla/scripts/main.ts	(date 1602977446454)
+@@ -2,19 +2,20 @@
+ import { ShapeRender } from './new-shape'
+ 
+ //document.body.innerText = 'Hello world!'
+-
+-
+ const shape = {
+-  name: "square",
+-  parameters : {
+-    width: "50",
+-  },
+-}
++    name: "square",
++    parameters : {
++      width: "50",
++    },
++  }
+ function basic(){
+-  const docx = document.getElementById("base")!;
+-
+-  const build = new ShapeRender(shape);
+-  docx.innerHTML = build.drawShape().outerHTML;
+-}
++    const docx = document.getElementById("base")!;
++    //const build = new ShapeRender(shape);
++    //docx.innerHTML = build.drawShape().outerHTML;
++    document.body.innerText = 'Hello world!'
++  }
+ 
+ 
++
++
++
+Index: vanilla/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <script src=\"scripts/main.ts\">\r\n  </script>\r\n  <title>Document</title>\r\n</head>\r\n<body>\r\n  <script>\r\n    basic();\r\n  </script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- vanilla/index.html	(revision 5b3f374b71882bfba8af2661fb90e3532fb62412)
++++ vanilla/index.html	(date 1602978417281)
+@@ -3,13 +3,21 @@
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <script src="scripts/main.ts">
++  <title>Document</title>
++  <script type="text/typescript" src="scripts/main.ts"></script>
++  <script type="text/typescript">
++    windows.onload = function(){
++      basic();
++    }
+   </script>
+-  <title>Document</title>
++  <script src="https://rawgit.com/Microsoft/TypeScript/master/lib/typescriptServices.js"></script>
++  <script src="https://rawgit.com/basarat/typescript-script/master/transpiler.js"></script>
+ </head>
+ <body>
+-  <script>
+-    basic();
+-  </script>
++<div id ="base">
++kk
++</div>
+ </body>
++
++
+ </html>
+\ No newline at end of file
