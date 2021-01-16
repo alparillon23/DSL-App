@@ -15,8 +15,8 @@
     "dev": "yarn build:css && parcel index.html",
     "start": "parcel index.html",
     "build:css": "tailwindcss build styles/main.css -o styles/main.out.css",
-    "build": "rm -rf dist && yarn build:css && parcel build vanilla/index.html",
-    "predeploy": "rm -rf dist && parcel build vanilla/index.html",
+    "build": "rm -rf dist && yarn build:css && parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
     "deploy": "yarn build && netlify deploy --prod --dir dist"
   },
   "dependencies": {
