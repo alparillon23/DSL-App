@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb5b0638-4585-4da2-959a-eb21647c5fe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vanilla/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanilla/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +44,28 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Al-Parillon\Desktop\YEAR FOUR\TERM 1\CPSC 410 101\cpsc410_project1_team13\vanilla\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Al-Parillon\Desktop\YEAR FOUR\TERM 1\CPSC 410 101\cpsc410_project1_team13" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +81,7 @@
       <workItem from="1605554814594" duration="337000" />
       <workItem from="1605555490677" duration="56000" />
       <workItem from="1610777088762" duration="5807000" />
-      <workItem from="1610788951262" duration="2862000" />
+      <workItem from="1610788951262" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="working xml">
       <created>1602775493309</created>
@@ -76,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602821905718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added config for package.json">
+      <created>1610791902975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610791902975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,45 +113,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working xml" />
     <MESSAGE value="special shape characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="special shape characters" />
+    <MESSAGE value="added config for package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added config for package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603009804391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603009804391" />
-    <state x="203" y="0" key="CommitChangelistDialog2" timestamp="1602821902968">
+    <state x="203" y="0" key="CommitChangelistDialog2" timestamp="1610791901652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="203" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602821902968" />
+    <state x="203" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610791901652" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610781832448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610781832448" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1603010022547">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1610792948934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603010022547" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1603010022547">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610792948934" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1610792948934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603010022547" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1603010022547">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610792948934" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1610792948934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603010022547" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1603010022547">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610792948934" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1610792948934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603010022547" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610792948934" />
     <state x="129" y="55" key="MergeDialog" timestamp="1603054833996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1603054833996" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1610781882231">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1610791906589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610781882231" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610791906589" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610781465518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
