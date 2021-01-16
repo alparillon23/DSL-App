@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb5b0638-4585-4da2-959a-eb21647c5fe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vanilla/scripts/animation/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/scripts/animation/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanilla/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanilla/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanilla/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vanilla/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <workItem from="1605554814594" duration="337000" />
       <workItem from="1605555490677" duration="56000" />
       <workItem from="1610777088762" duration="5807000" />
-      <workItem from="1610788951262" duration="1160000" />
+      <workItem from="1610788951262" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="working xml">
       <created>1602775493309</created>
